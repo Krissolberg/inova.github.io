@@ -21,7 +21,7 @@
             <nav>
                 <div class="nav-brand">
                     <a href="index.html">
-                        <img src="css/images/logo.png" alt="">
+                        <img src="css/images/logo.png" alt="logo">
                     </a>
                 </div>
 
@@ -66,7 +66,7 @@
                         odio deserunt eum beatae. At, ullam?
                     </p>
                     <div class="cta">
-                        <a href="#" class="btn">Book now</a>
+                        <a href="dummy.html" class="btn">Book now</a>
                     </div>
                 </div>
             </div>
@@ -171,13 +171,26 @@
                     <!-- Contact grid item #1 -->
                     <div class="contact-grid-item">
                         <p class="text">Email: contact@inova.com</p>
+                        <p class="text">Phone: +4712345678</p>
                     </div>
                     <!-- Contact grid item #2 -->
                     <div class="contact-grid-item">
-                        <p class="text">Phone: +4712345678</p>
+                        <div class="content">
+                            <form action="#">
+                                <div class="email">
+                                    <div class="text">Email *</div>
+                                    <textarea cols="40" rows="2" required></textarea>
+                                </div>
+                                <div class="msg">
+                                    <div class="text">Message *</div>
+                                    <textarea cols="40" rows="4" required></textarea>
+                                </div>
+                                <div>
+                                    <a class="btn1" href="dummy.html">Contact us here</a>
+                                </div>
+                            </form>
                     </div>
                 </div>
-                <a class="btn1" href="#">Contact us here</a>
             </div>
         </section>
 
@@ -203,5 +216,10 @@
     
 
     <script type="text/javascript" src="scripts.js"></script>
+    <script>
+        $('.navbar-collapse a').click(function(){
+            $(".navbar-collapse").collapse('hide');
+        });
+    </script>
 </body>
 </html>
