@@ -157,9 +157,9 @@ nav{
 }
 
 .btn{
-    background-color: #eb648c;
+    background-color: #64ebd5;
     border-radius: 2rem;
-    color: #fafafa;
+    color: black;
     display: inline-block;
     margin-top: 2rem;
     padding: 1rem 2.5rem;
@@ -168,7 +168,7 @@ nav{
 }
 
 .btn:hover{
-    background-color: #ce587b;
+    background-color: #00a88c;
 }
 
 /*Information*/
@@ -378,9 +378,9 @@ nav{
 }
 
 .btn1{
-    background-color: #eb648c;
+    background-color: #64ebd5;
     border-radius: 2rem;
-    color: white;
+    color: black;
     display: inline-block;
     margin-top: 1rem;
     padding: 1rem 2.5rem;
@@ -389,7 +389,7 @@ nav{
 }
 
 .btn1:hover{
-    background-color: #ce587b;
+    background-color: #00a88c;
 }
 
 footer{
