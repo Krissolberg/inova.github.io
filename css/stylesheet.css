@@ -205,6 +205,8 @@ nav{
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     grid-gap: 2.5rem;
     margin-bottom: 10rem;
+    position: relative;
+    z-index: 0;
 }
 
 .activities-grid-item{
@@ -326,7 +328,7 @@ nav{
     flex-direction: column;
     justify-content: center;
     cursor: pointer;
-    z-index: 1;
+    z-index: 0;
 }
 
 .staff-grid-item::before{
@@ -375,6 +377,9 @@ nav{
 .contact-grid-item p{
     color: rgba(0, 0, 0, 0.7);
     text-align: center;
+}
+.content{
+    padding: 2rem;
 }
 
 .btn1{
