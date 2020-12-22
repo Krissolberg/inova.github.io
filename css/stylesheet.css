@@ -7,6 +7,10 @@
     box-sizing: inherit;
 }
 
+body{
+    z-index: 1;
+}
+
 html{
     font-family: 'Nunito', sans-serif;
     font-size: 10px;
@@ -62,7 +66,7 @@ nav{
 }
 
 .nav-brand{
-    width: 5rem;
+    width: 8rem;
 }
 
 .menu-icons i{
@@ -77,7 +81,7 @@ nav{
 
 .nav-list{
     width: 25rem;
-    height: 100vh;
+    /* height: 100vh; */
     background-color: #d7d4ed;
     position: fixed;
     top: 0;
@@ -86,7 +90,7 @@ nav{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    z-index: 1500;
+    z-index: 1;
     transition: all 650ms ease-in-out;
 }
 
@@ -314,7 +318,7 @@ nav{
 }
 
 .staff-grid-item{
-    height: 40rem;
+    /* height: 40rem; */
     padding: 5rem;
     color: #fafafa;
     position: relative;
@@ -376,9 +380,9 @@ nav{
 .btn1{
     background-color: #eb648c;
     border-radius: 2rem;
-    color: #fafafa;
+    color: white;
     display: inline-block;
-    margin-top: 2rem;
+    margin-top: 1rem;
     padding: 1rem 2.5rem;
     text-transform: uppercase;
     transition: background-color 650ms;
@@ -398,7 +402,14 @@ footer{
 /*Media queries*/
 @media screen and (min-width: 350px){
     .main-message{
-        transform: translateY(40%);
+        transform: translateY(50%);
+    }
+    header{
+        height: 8rem;
+    }
+
+    .nav-brand{
+        width: 10rem;
     }
 }
 
@@ -458,7 +469,8 @@ footer{
         bottom: -.5rem;
         background-color: #eb648c;
         width: 100%;
-        height: 2px;
+        /* height: 2px; */
+        z-index: 1;
         transform: scalex(0);
         transform-origin: left;
         transition: transform 650ms;
